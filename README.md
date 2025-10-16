@@ -83,7 +83,7 @@ Projektet är uppdelat i flera klasser med tydliga ansvarsområden enligt SOLID-
 
 1. Klona projektet:
    ```bash
-   git clone https://github.com/ditt-användarnamn/butikapp.git
+   git clone https://github.com/rashaknifdi/butikapp.git
    cd butikapp
 2. Kör med Maven:
    ```bash
