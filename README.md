@@ -79,7 +79,7 @@ Projektet är uppdelat i flera klasser med tydliga ansvarsområden enligt SOLID-
 - Egna undantagsklasser – hanterar affärslogikfel på ett tydligt sätt
 
 ---
-## Så kör du projektet
+## Så kör du projektet via Git Bash
 
 1. Klona projektet:
    ```bash
