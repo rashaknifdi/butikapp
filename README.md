@@ -91,11 +91,4 @@ Projektet är uppdelat i flera klasser med tydliga ansvarsområden enligt SOLID-
    mvn exec:java
 
 
-   
-   
-2. Kör med Maven:
-   ```bash
-mvn compile
-mvn exec:java
-
 
