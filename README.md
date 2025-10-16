@@ -85,6 +85,13 @@ Projektet är uppdelat i flera klasser med tydliga ansvarsområden enligt SOLID-
    ```bash
    git clone https://github.com/ditt-användarnamn/butikapp.git
    cd butikapp
+2. Kör med Maven:
+   ```bash
+   mvn compile
+   mvn exec:java
+
+
+   
    
 2. Kör med Maven:
    ```bash
