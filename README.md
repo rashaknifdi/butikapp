@@ -11,6 +11,7 @@ Programmet körs i konsolen och är uppbyggt enligt SOLID-principerna med fokus 
 - Java 17
 - Maven för bygg och körning
 - SLF4J för loggning
+- Logback för att spara loggar i fil
 - Stream API för filtrering, sortering och analys
 - Egna undantagsklasser för affärslogik
 - Datastrukturer: `List`, `Map`
@@ -62,6 +63,14 @@ Jag använder SLF4J för att logga viktiga händelser:
 - När en analysfunktion körs
 
 Loggningen sker via en hjälparklass `LoggerUtil` och använder både `INFO` och `ERROR` beroende på situation.
+
+---
+
+## Loggning till fil med Logback
+För att förbättra loggningen har jag integrerat Logback som implementation av SLF4J. 
+Det gör att loggar inte bara visas i konsolen utan även sparas i en loggfil (logs/butikapp.log). 
+Detta underlättar felsökning och gör det möjligt att följa upp händelser i efterhand. 
+Loggningen styrs via en konfigurationsfil och sker automatiskt vid körning.
 
 ---
 
