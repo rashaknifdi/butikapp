@@ -21,8 +21,8 @@ Programmet körs i konsolen och är uppbyggt enligt SOLID-principerna med fokus 
 ## Datastrukturer
 Jag har valt följande datastrukturer:
 
-- List<Product> – för att lagra alla produkter i systemet
-- List<Order> – för att lagra alla ordrar
+- List <Product> – för att lagra alla produkter i systemet
+- List <Order> – för att lagra alla ordrar
 - Map<String, List<Order>> – för att gruppera ordrar per kundnamn där nyckeln är kundnamnet och värdet är
   deras orderhistorik
 
@@ -88,7 +88,8 @@ Projektet är uppdelat i flera klasser med tydliga ansvarsområden enligt SOLID-
 - Egna undantagsklasser – hanterar affärslogikfel på ett tydligt sätt
 
 ---
-## Så kör du projektet
+
+## Så kör projektet via Git Bash
 
 1. Klona projektet:
    ```bash
@@ -98,6 +99,12 @@ Projektet är uppdelat i flera klasser med tydliga ansvarsområden enligt SOLID-
    ```bash
    mvn compile
    mvn exec:java
+
+---   
+
+##  Utvecklare
+- Namn: Rasha Knifdi 
+- Roll: Fullstack Java Student
 
 
 
